@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<animation-list android:oneshot="false" xmlns:android="http://schemas.android.com/apk/res/android">    
+  
+    <item android:duration="150" android:drawable="@drawable/wg_radio_jiazai_1" />   
+    <item android:duration="150" android:drawable="@drawable/wg_radio_jiazai_2" />   
+    <item android:duration="150" android:drawable="@drawable/wg_radio_jiazai_3" />   
+    <item android:duration="150" android:drawable="@drawable/wg_radio_jiazai_4" />   
+    <item android:duration="150" android:drawable="@drawable/wg_radio_jiazai_5" />   
+    <item android:duration="150" android:drawable="@drawable/wg_radio_jiazai_6" />   
+    <item android:duration="150" android:drawable="@drawable/wg_radio_jiazai_7" />   
+    <item android:duration="150" android:drawable="@drawable/wg_radio_jiazai_8" />   
+    <item android:duration="150" android:drawable="@drawable/wg_radio_jiazai_9" />   
+    <item android:duration="150" android:drawable="@drawable/wg_radio_jiazai_10" />   
+    <item android:duration="150" android:drawable="@drawable/wg_radio_jiazai_11" />   
+    <item android:duration="150" android:drawable="@drawable/wg_radio_jiazai_12" />   
+</animation-list>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    >
+
+    <ProgressBar
+        android:id="@+id/id_app_down_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120dip"
+        android:layout_gravity="bottom"
+        android:progress="0"
+        android:progressDrawable="@drawable/progressbar_drawable" />
+
+    <LinearLayout
+        android:id="@+id/id_list_app_layout"
+        android:layout_width="match_parent"
+        android:layout_height="120dip"
+        android:background="@drawable/market_right_list_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/id_app_icon"
+                android:layout_width="80dip"
+                android:layout_height="80dip"
+                android:src="@drawable/market_right_tubiao_moren" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/id_app_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/default_title"
+                        android:textColor="@android:color/white"
+                        android:textSize="22px" />
+
+                    <TextView
+                        android:id="@+id/id_app_version"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5px"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/default_title5"
+                        android:textColor="@android:color/white"
+                        android:textSize="18px" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/id_app_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:text="@string/default_title2"
+                    android:textColor="@color/filesziecolor"
+                    android:textSize="18px" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/id_app_down_prosstext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/default_title3"
+                android:textColor="@android:color/white"
+                android:textSize="22px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/id_app_down_netprosstext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/default_title4"
+                android:textColor="@android:color/white"
+                android:textSize="22px" />
+
+            <Button
+                android:id="@+id/id_app_down"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/tab_bth_bg"
+                android:text="下载"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/id_app_down2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/tab_bth_bg"
+                android:text="卸载"
+                android:textColor="@android:color/white"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

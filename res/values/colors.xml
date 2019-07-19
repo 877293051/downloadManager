@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="filesziecolor">#6987ad</color>
+ <color name="downloadcolor">#00ba1a</color>
+  <color name="progressbgcolor">#6e83a0</color>
+	  <color name="progressdefulcolor">#2c3d57</color>
+	    <color name="progressstartcolor">#00a8ff</color>
+	    <color name="disclaimer_textcolor">#000000</color>
+	    	    <color name="t2_textcolor">#ffffff</color>
+</resources>

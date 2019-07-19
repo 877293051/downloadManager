@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_layout_wg_link"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/wg_radio_wuwang" />
+
+    <TextView
+        android:id="@+id/id_image_wg_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/wg_re_link_bth"
+        android:gravity="center"
+        android:text="@string/net_dianji"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+</LinearLayout>

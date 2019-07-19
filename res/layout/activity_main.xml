@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/market_bg"
+    tools:context="com.xyt.app_market.activity.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp" >
+
+        <RadioGroup
+            android:id="@+id/id_tab_group"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@drawable/market_left_xian2" />
+
+            <RadioButton
+                android:id="@+id/id_radio_hot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/left_tab_select_bg"
+                android:button="@null"
+                android:checked="true"
+                android:drawable="@drawable/market_left_bg"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/market_left_hot"
+                android:gravity="center|top"
+                android:text="@string/tab_name"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@drawable/market_left_xian2" />
+
+            <RadioButton
+                android:id="@+id/id_radio_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/left_tab_select_bg"
+                android:button="@null"
+                android:drawableTop="@drawable/market_left_other"
+                android:gravity="center|top"
+                android:text="@string/tab_name2"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@drawable/market_left_xian2" />
+
+            <RadioButton
+                android:id="@+id/id_radio_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/left_tab_select_bg"
+                android:button="@null"
+                android:drawableTop="@drawable/market_left_set"
+                android:gravity="center|top"
+                android:text="@string/tab_name3"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/market_left_xian1" />
+
+        <com.xyt.app_market.layout.ContentLayout
+            android:id="@+id/id_market_layout_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2、0 (the "License");
+     you may not use this file except in compliance with the License、
+     You may obtain a copy of the License at
+
+          http://www、apache、org/licenses/LICENSE-2、0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied、
+     See the License for the specific language governing permissions and
+     limitations under the License、
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1、2">
+     <string name="disclaimer_title">免责申明</string>
+     <string name="disclaimer_1_t">1、车载设备用户在下载或使用车载应用商店时均被视为已经仔细阅读本条款并完全同意。凡以任何方式登录本软件，直接、间接使用本软件资料者，均被视为自愿接受本软件相关声明和用户服务协议的约束。</string>
+     <string name="disclaimer_2_t">2、车载应用商店中的应用均为用户上传，本软件会对用户上传的应用进行内容审核，用户下载车载应用商店中的应用完全是自愿行为，因下载使用第三方软件造成系统不稳定、故障、兼容性问题，车载应用商店对此不承担任何责任。</string>
+     <string name="disclaimer_3_t">3、车载应用商店转载的内容并不代表车载应用商店之意见及观点，也不意味着软件赞同其观点或证实其内容的真实性。</string>
+     <string name="disclaimer_4_t">4、车载应用商店不保证为向用户提供便利而设置的外部链接的准确性和完整性，同时，对于该外部链接指向不由车载应用商店控制的任何内容，车载应用商店不承担任何责任。</string>
+     <string name="disclaimer_5_t">5、车载应用商店软件均无法通过车辆仪表盘进行显示ID3、导航相关信息，包括音乐播放、收音播放、地图导航等软件。</string>
+     <string name="disclaimer_6_t">6、用户明确并同意其使用车载应用商店网络服务所存在的风险将完全由本人承担，因其使用车载应用商店网络服务而产生的一切后果也由其本人承担，车载应用商店对此不承担任何责任。</string>
+     <string name="disclaimer_7_t">7、除车载应用商店注明之服务条款外，其它因不当使用本软件导致的任何意外、疏忽、合约毁坏、诽谤、版权或其它知识产权侵犯及其所造成的任何损失，车载应用商店概不负责，亦不承担任何法律责任。</string>
+     <string name="disclaimer_8_t">8、对于因不可抗力或因黑客攻击、通讯线路中断等车载应用商店不能控制的原因造成的网络服务中断或其他缺陷，导致用户不能正常使用车载应用商店，车载应用商店不承担任何责任，但将尽力减少因此给用户造成的损失或影响。</string>
+     <string name="disclaimer_9_t">9、本声明未涉及的问题请参见国家有关法律法规，当本声明与国家有关有关法律法规相冲突时，以国家法律法规为准。</string>
+     <string name="disclaimer_10_t">10、本软件相关声明版权及其修改权、更新权和最终解释权均属于车载应用商店所有。</string>
+</resources>

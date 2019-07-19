@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/market_bg"
+    tools:context="com.xyt.app_market.activity.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/id_layout_translation"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/market_left_bg" />
+        </FrameLayout>
+
+        <RadioGroup
+            android:id="@+id/id_tab_group"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/id_radio_hot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center|top"
+                android:text="@string/tab_name"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+            <RadioButton
+                android:id="@+id/id_radio_other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center|top"
+                android:text="@string/tab_name2"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+            <RadioButton
+                android:id="@+id/id_radio_set"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center|top"
+                android:text="@string/tab_name3"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+        </RadioGroup>
+
+        <com.xyt.app_market.layout.ContentLayout
+            android:id="@+id/id_market_layout_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</FrameLayout>

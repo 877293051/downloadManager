@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="uninstall_system_app_text" msgid="6429814133777046491">"这是系统应用，无法卸载。"</string>
+    <string name="app_name">Application market</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab_name">Wonderful recommendation</string>
+    <string name="tab_name2">Application software</string>
+    <string name="tab_name3">Application management</string>
+    <string name="default_title">Application name</string>
+    <string name="default_title6">Occupied memory:</string>
+    <string name="default_title7">Program not running</string>
+    <string name="default_title2">0 MB</string>
+    <string name="default_title3">55 %</string>
+    <string name="default_title4">0M/S</string>
+    <string name="default_title5">v1.6.1</string>
+    <string name="hot_tab_name">Popular recommendation</string>
+    <string name="hot_tab_name2">new arrival</string>
+    <string name="hot_tab_name3">Download charts</string>
+    <string name="other_tab_name">Map navigation</string>
+    <string name="other_tab_name2">Music Radio</string>
+    <string name="other_tab_name3">Other applications</string>
+    <string name="set_tab_name">System application</string>
+    <string name="set_tab_name2">Third party application</string>
+    <string name="set_tab_name3">Download Management</string>
+    <string name="down_state_xia">download</string>
+    <string name="down_state_update">update</string>
+    <string name="down_state_an">install</string>
+    <string name="down_state_ying">open</string>
+    <string name="down_state_xie">uninstall</string>
+    <string name="down_state_shan">delete</string>
+    <string name="down_state_zan">pause</string>
+    <string name="down_state_isstart">Restart...</string>
+    <string name="down_state_wait">wait</string>
+    <string name="down_state_ready">Ready to download...</string>
+    <string name="down_state_start">Downloading...</string>
+    <string name="dialog_tishi">Prompt</string>
+    <string name="dialog_loadcontent">Loading content...</string>
+    <string name="dialog_load">Uninstall program...</string>
+    <string name="dialog_load2">Setup program...</string>
+    <string name="dialog_load3">The application is..</string>
+    <string name="dialog_title">Do you want to install this program?</string>
+    <string name="dialog_title2">Do you want to open this program?</string>
+    <string name="dialog_title3">Do you want to uninstall this program?</string>
+    <string name="dialog_title4">Do you want to delete APK?</string>
+    <string name="dialog_tishi2">Determine</string>
+    <string name="dialog_tishi3">cancel</string>
+    <string name="dialog_settings">Hard loading....</string>
+    <string name="detail_content">Downloads:</string>
+    <string name="detail_content2">second</string>
+    <string name="detail_content3">second</string>
+        <string name="detail_content4">Update information</string>
+            <string name="detail_content5">Function introduction</string>
+    <string name="loacat">local</string>
+    <string name="net">nework</string>
+    <string name="Current_use">Current use</string>
+    <string name="net_dianji">Click Retry</string>
+    <string name="toast_title">Press the exit procedure again</string>
+	<string name="toast_nettitle">Network disconnection</string>
+	<string name="toast_nettitle2">Network link</string>
+		<string name="toast_nettitle3">No network</string>
+    <!-- 下拉刷新中相关文字 -->
+    <string name="pull_to_refresh_pull_label">Pull-down refresh</string>
+    <string name="pull_to_refresh_release_label">Refresh after release</string>
+    <string name="pull_to_refresh_refreshing_label">Refreshing...</string>
+    <string name="pull_to_refresh_footer_release_label">Release after loading</string>
+    <string name="pull_to_refresh_footer_pull_label">Pull load more</string>
+    <string name="pull_to_refresh_footer_refreshing_label">Loading \u2026</string>
+    <string name="refresh_succeed">Refresh success</string>
+    <string name="refresh_fail">refresh failed</string>
+    <string name="load_succeed">Load success</string>
+    <string name="load_nomore">No more</string>
+    <string name="load_fail">Load failure</string>
+    <!-- ListView底部加载更多提示的文字 -->
+    <string name="loading_moreValues">Load more</string>
+    <string name="hasloading_moreValues">In loading...</string>
+
+</resources>

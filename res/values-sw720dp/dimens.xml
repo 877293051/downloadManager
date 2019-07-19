@@ -1,0 +1,11 @@
+<resources>
+        <dimen name="grid_icon_size">60dip</dimen>
+         <dimen name="details_top">25dip</dimen>
+                              <dimen name="dis_dialog_with">600dp</dimen>
+         <dimen name="dis_dialog_hight">570dp</dimen>
+         
+         
+                 <dimen name="gallery_item_start">30dp</dimen>
+                      <dimen name="gallery_item_width">340dp</dimen>
+                                            <dimen name="gallery_item_hight">200dp</dimen>
+</resources>

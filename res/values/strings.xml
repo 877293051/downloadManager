@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="uninstall_system_app_text" msgid="6429814133777046491">"这是系统应用，无法卸载。"</string>
+    <string name="app_name">应用市场</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab_name">精彩推荐</string>
+    <string name="tab_name2">应用软件</string>
+    <string name="tab_name3">应用管理</string>
+    <string name="default_title">应用名字</string>
+    <string name="default_title6">占用内存 : </string>
+    <string name="default_title7">程序未运行 </string>
+    <string name="default_title2">0 MB</string>
+    <string name="default_title3">55 %</string>
+    <string name="default_title4">0M/S</string>
+    <string name="default_title5">v1.6.1</string>
+    <string name="hot_tab_name">热门推荐</string>
+    <string name="hot_tab_name2">最新上架</string>
+    <string name="hot_tab_name3">下载排行榜</string>
+    <string name="other_tab_name">地图导航</string>
+    <string name="other_tab_name2">音乐电台</string>
+    <string name="other_tab_name3">其他应用</string>
+    <string name="set_tab_name">系统应用</string>
+    <string name="set_tab_name2">第三方应用</string>
+    <string name="set_tab_name3">下载管理</string>
+    <string name="down_state_xia">下载</string>
+    <string name="down_state_update">更新</string>
+    <string name="down_state_an">安装</string>
+    <string name="down_state_ying">打开</string>
+    <string name="down_state_xie">卸载</string>
+    <string name="down_state_shan">删除</string>
+    <string name="down_state_zan">暂停</string>
+    <string name="down_state_isstart">重新开始...</string>
+    <string name="down_state_wait">等待</string>
+    <string name="down_state_ready">准备下载...</string>
+    <string name="down_state_start">正在下载...</string>
+    <string name="dialog_tishi">提示</string>
+    <string name="dialog_loadcontent">正在加载内容...</string>
+    <string name="dialog_load">卸载程序中...</string>
+    <string name="dialog_load2">安装程序中...</string>
+    <string name="dialog_load3">正在应用程序..</string>
+    <string name="dialog_title">是否安装此程序?</string>
+    <string name="dialog_title2">是否打开此程序?</string>
+    <string name="dialog_title3">是否卸载此程序?</string>
+    <string name="dialog_title4">是否删除APK?</string>
+    <string name="dialog_tishi2">确定</string>
+    <string name="dialog_tishi3">取消</string>
+    <string name="dialog_settings">努力加载中....</string>
+    <string name="detail_content">下载量  : </string>
+    <string name="detail_content2">次</string>
+    <string name="detail_content3">次</string>
+        <string name="detail_content4">更新信息</string>
+            <string name="detail_content5">功能介绍</string>
+    <string name="loacat">本地</string>
+    <string name="net">网络</string>
+    <string name="Current_use">当前使用</string>
+    <string name="net_dianji">点击重试</string>
+    <string name="toast_title">再按一次退出程序</string>
+	<string name="toast_nettitle">网络断开</string>
+	<string name="toast_nettitle2">网络已链接</string>
+		<string name="toast_nettitle3">没有网络</string>
+    <!-- 下拉刷新中相关文字 -->
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="pull_to_refresh_refreshing_label">正在刷新...</string>
+    <string name="pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_nomore">没有更多了</string>
+    <string name="load_fail">加载失败</string>
+    <!-- ListView底部加载更多提示的文字 -->
+    <string name="loading_moreValues">加载更多</string>
+    <string name="hasloading_moreValues">加载中...</string>
+    <string name="dis_yes">同意</string>
+    <string name="dis_no">取消</string>
+    <string name="dis_title">免责声明</string>
+    <string name="dis_title2">不再提醒此消息</string>
+
+</resources>

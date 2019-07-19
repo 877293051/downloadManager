@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp" >
+
+    <RelativeLayout
+        android:id="@+id/id_list_app_layout"
+        android:layout_width="match_parent"
+        android:layout_height="113dip"
+        android:background="@drawable/market_right_list_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+        <ImageView
+            android:id="@+id/id_app_icon"
+            android:layout_width="@dimen/grid_icon_size"
+            android:layout_height="@dimen/grid_icon_size"
+            android:layout_centerVertical="true"
+            android:src="@drawable/market_right_tubiao_moren" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/id_app_icon"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/id_app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_title"
+                android:textColor="@android:color/white"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/id_app_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_title2"
+                android:textColor="@color/filesziecolor"
+                android:textSize="18px" />
+        </LinearLayout>
+
+        <com.xyt.app_market.view.DowdloadProgressBar
+            android:id="@+id/id_app_down"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="90dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/downloadprogressbar" />
+    </RelativeLayout>
+
+</FrameLayout>

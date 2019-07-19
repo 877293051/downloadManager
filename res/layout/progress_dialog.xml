@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+     >
+<LinearLayout 
+    android:layout_marginBottom="30dp"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:background="@drawable/wg_radio_jiazai_bg"
+    android:orientation="horizontal"
+    >
+    <ImageView
+      android:id="@+id/id_dialog_image"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginLeft="25dp"
+      android:background="@anim/loading" />
+     <TextView
+      android:id="@+id/id_dialog_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+     android:layout_toRightOf="@+id/id_dialog_image"
+      android:text="@string/dialog_settings"
+      android:textColor="@android:color/white"
+      android:layout_gravity="center"
+      android:layout_marginLeft="20dp"
+      android:textSize="30sp" /> 
+</LinearLayout>
+</RelativeLayout>
+
